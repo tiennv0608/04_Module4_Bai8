@@ -1,0 +1,8 @@
+com/codegym/config/AppInit.java
+ com.codegym.config.AppInit
+com/codegym/config/AppConfiguration.java
+ com.codegym.config.AppConfiguration
+com/codegym/model/User.java
+ com.codegym.model.User
+com/codegym/controller/UserController.java
+ com.codegym.controller.UserController
