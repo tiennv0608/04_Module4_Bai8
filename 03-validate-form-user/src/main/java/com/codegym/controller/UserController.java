@@ -27,12 +27,13 @@ public class UserController {
 
     @PostMapping("/create")
     public ModelAndView create(@Valid User user, BindingResult bindingResult) {
-        ModelAndView modelAndView = new ModelAndView("/create");
         if (bindingResult.hasFieldErrors()) {
+            ModelAndView modelAndView = new ModelAndView("/create");
             return modelAndView;
         } else {
             userService.save(user);
-            modelAndView.addObject("message","User created successful");
+            ModelAndView modelAndView = new ModelAndView("/result");
+            modelAndView.addObject("user",user);
             return modelAndView;
         }
     }

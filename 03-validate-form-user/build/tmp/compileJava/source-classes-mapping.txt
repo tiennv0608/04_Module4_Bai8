@@ -1,7 +1,7 @@
 com/codegym/service/GeneralService.java
  com.codegym.service.GeneralService
-com/codegym/controller/UserController.java
- com.codegym.controller.UserController
+com/codegym/configuration/AppInit.java
+ com.codegym.configuration.AppInit
 com/codegym/service/user/UserService.java
  com.codegym.service.user.UserService
 com/codegym/service/user/UserServiceImpl.java
@@ -12,5 +12,5 @@ com/codegym/model/User.java
  com.codegym.model.User
 com/codegym/configuration/AppConfig.java
  com.codegym.configuration.AppConfig
-com/codegym/configuration/AppInit.java
- com.codegym.configuration.AppInit
+com/codegym/controller/UserController.java
+ com.codegym.controller.UserController
